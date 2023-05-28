@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - starting point
  * Description: a function that generates a random number and reurn result based on condition
