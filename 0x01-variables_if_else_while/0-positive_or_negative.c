@@ -3,7 +3,8 @@
 #include <stdio.h>
 /**
  * main - starting point
- * Description: a function that generates a random number and reurn result based on condition
+ * Description: a function that generates a random number 
+ * 	and reurn result based on condition
  * Return: 0
  */
 
@@ -17,7 +18,7 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	else if (n < 0)
+	else if (n <i 0)
 	{
 		printf("%d is negative\n", n);
 	}
