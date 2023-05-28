@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - starting point
- * Description: a function that generates a random number 
+ * Description: a function that generates a random number
  * 	and reurn result based on condition
  * Return: 0
  */
