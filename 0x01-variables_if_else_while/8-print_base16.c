@@ -10,13 +10,15 @@ int main(void)
 
 	char alp = 'a';
 
-	for (i; i < 10; i++)
+	while (i < 10)
 	{
 		putchar('0' + i);
+		i++;
 	}
-	for (alp; alp <= 'f'; alp++)
+	while (alp <= 'f')
 	{
 		putchar(alp);
+		alp++;
 	}
 	putchar('\n');
 
