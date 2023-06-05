@@ -1,11 +1,16 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * _puts - print a string then newline
- * @str: param string
- * Return: nothing
+ * _puts - prints a string to stdout
+ * @str: the parameter
+ * Return: none since void
  */
 void _puts(char *str)
 {
-
-	puts(str);
+	while (*str != '\0')
+	{
+		putchar(*str + 0);
+		++str;
+	}
+	putchar('\n');
 }
