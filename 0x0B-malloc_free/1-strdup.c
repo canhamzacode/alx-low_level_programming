@@ -21,7 +21,7 @@ char *_strdup(char *str)
 		i++;
 	}
 
-	newSpace = malloc(sizeof(str) * (i + 1));
+	newSpace = malloc(sizeof(char) * (i + 1));
 
 	if (newSpace == NULL)
 	{
