@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * malloc_cheched - function to create a memory
+ * malloc_checked - function to create a memory
  * @b: paramerter
  * Return: 0
  */
