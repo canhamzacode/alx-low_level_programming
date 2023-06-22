@@ -1,10 +1,11 @@
 #include "3-calc.h"
 
 /**
- * op_add : returns sum of a and b
- * @a: param 1
- * @b: param 2
- * Return: summ of a and b
+ * op_add - adds two numbers.
+ * @a: first number.
+ * @b: second number.
+ *
+ * Return: add.
  */
 int op_add(int a, int b)
 {
